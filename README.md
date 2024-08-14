@@ -52,10 +52,10 @@ python quality_prediction.py (<SCORE_TYPE>)
 
 #### 2. Evaluate its cost effectiveness (Eval_Cost_Effect)
 ```
-# Cost effectivness using nima/clip score
+# Cost effectiveness using nima/clip score
 python Eval_Cost_Effect/avg_quality_cost.py (<SCORE_TYPE>)
 
-# Cost effectivness using mixed score
+# Cost effectiveness using mixed score
 python Eval_Cost_Effect/avg_quality_cost_mixed.py
 ```
 * SCORE_TYPE : nima (default), clip
