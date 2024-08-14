@@ -2,8 +2,8 @@
 This repository contains the code and data for the following paper:
 * [Dongkeun Lee](https://codongcodong.github.io/) and [Wonjun Lee](https://netlab.korea.ac.kr/wlee/), “__Learning Prompt-Level Quality Variance for Cost-Effective Text-to-Image Generation__,” to appear in _the 33rd ACM International Conference on Information and Knowledge Management_ (CIKM ’24) - Short Research Paper Track, Boise, ID, USA, October 2024.
 
-Paper link (ACM DL) : [TBA](https://github.com/sco-edge/CEMS/tree/main)   
-Author Preprint : [PDF](https://codongcodong.github.io/pdf/CIKM24_CEMS_paper.pdf)
+Paper link (ACM DL) : TBA   
+Author preprint : [PDF](https://codongcodong.github.io/pdf/CIKM24_CEMS_paper.pdf)
 
 ## Overview
 ![Architecture Overview of CEMS](./CEMS_overview.png)
@@ -15,7 +15,7 @@ We collect __prompt-level__ text-to-image performance dataset by generating imag
 ### Benchmark Prompts (Prompt_Datasets)
 We use all prompts from LN-COCO, DrawBench, and PartiPrompts and randomly sample 31,427 and 8,168 prompts from MS-COCO and DiffusionDB, respectively.
 
-| Benchmarks | # of Prompts | # of Words/Prompt ($\mu$(±$\sigma$))|
+| Benchmarks | # of Prompts | # of Words/Prompt <br> (&mu;(±&sigma;))|
 |:---:|:---:|:---:|
 |[MS-COCO](https://cocodataset.org/#download)|31,427|10.46 (±2.41)|
 |[LN-COCO](https://google.github.io/localized-narratives/)|8,573|40.45 (±18.75)|
@@ -24,7 +24,7 @@ We use all prompts from LN-COCO, DrawBench, and PartiPrompts and randomly sample
 |[DiffusionDB](https://huggingface.co/datasets/poloclub/diffusiondb)|8,168|24.31 (±16.10)|
 
 ### Text-to-Image Performance Dataset (Model_Perf)
-| Model | [NIMA Score](https://github.com/idealo/image-quality-assessment) $\uparrow$ | [CLIP Score](https://huggingface.co/laion/CLIP-ViT-g-14-laion2B-s12B-b42K) $\uparrow$ | Inference Speed <br> ($\mu$(±$\sigma$)) |
+| Model | [NIMA Score](https://github.com/idealo/image-quality-assessment) $\uparrow$ | [CLIP Score](https://huggingface.co/laion/CLIP-ViT-g-14-laion2B-s12B-b42K) $\uparrow$ | Inference Speed <br> (&mu;(±&sigma;)) |
 |:---:|:---:|:---:|:---:|
 |[SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo)|5.405|33.59|0.616 s (±0.071)|
 |[SD-Turbo](https://huggingface.co/stabilityai/sd-turbo)|5.292|33.34|0.176 s (±0.018)|
