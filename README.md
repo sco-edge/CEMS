@@ -64,4 +64,16 @@ python Eval_Cost_Effect/avg_quality_cost_mixed.py
 If you have any questions, please contact the author [Dongkeun Lee](https://codongcodong.github.io/).
 
 ## Citation
-TBA
+```
+@inproceedings{lee2024cems,
+  author = {Lee, Dongkeun and Lee, Wonjun},
+  title = {Learning Prompt-Level Quality Variance for Cost-Effective Text-to-Image Generation},
+  year = {2024},
+  url = {https://doi.org/10.1145/3627673.3679954},
+  doi = {10.1145/3627673.3679954},
+  booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+  pages = {3847–3851},
+  location = {Boise, ID, USA},
+  series = {CIKM '24}
+}
+```
