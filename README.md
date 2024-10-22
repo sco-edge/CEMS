@@ -2,7 +2,7 @@
 This repository contains the code and data for the following paper:
 * [Dongkeun Lee](https://codongcodong.github.io/) and [Wonjun Lee](https://netlab.korea.ac.kr/wlee/), “__Learning Prompt-Level Quality Variance for Cost-Effective Text-to-Image Generation__,” to appear in _the 33rd ACM International Conference on Information and Knowledge Management_ (CIKM ’24) - Short Research Paper Track, Boise, ID, USA, October 2024.
 
-Paper link (ACM DL) : TBA   
+Paper link (ACM DL) : [https://dl.acm.org/doi/10.1145/3627673.3679954](https://dl.acm.org/doi/10.1145/3627673.3679954)      
 Author preprint : [PDF](https://codongcodong.github.io/pdf/CIKM24_CEMS_paper.pdf)
 
 ## Overview
